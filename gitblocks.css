@@ -1,0 +1,125 @@
+/*CSS reset settings here*/
+
+*{
+ margin: 0px;
+ padding: 0px;
+}
+
+#wrapper{
+    width: 1000px;
+    height: 880px;
+    background-color: #DDDFD4;
+    margin: 0px auto;
+    padding: 15px;
+    
+    }
+#header{
+    height: 70px;
+    background-color: #5DAEAC;
+    margin-bottom: 15px;
+    padding: 15px;
+    
+    }
+.logo {
+    display: inline-block;
+    height: 20px;
+    width: 400px;
+    font-family: "Comic Sans MS", sans-serif;
+    vertical-align: top;
+    font-size: 40px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+
+
+.menu, .subcontents1, .subcontents2, .subcontents3{
+
+    font-family: "Lucida Console", monospace;
+    
+}
+
+
+.menu {
+    display: inline-block;
+    height: 20px;
+    width: 450px;
+    vertical-align: top;
+    padding-top: 30px;
+    font-family: sans-serif;
+    font-size: 12px;
+    
+    
+}
+
+#mainbg1{
+    display: inline-block;
+    width: 970px;
+    height: 615px;
+    background-color: #F8E59C;
+    padding:15px;
+    margin-bottom: 15px;
+    }
+
+#leftbar{
+    display: inline-block;
+    height: 565px;
+    width: 230px;
+    background-color: #213F43;
+    padding: 20px;
+    margin-right: 10px;
+    font-size: 16px;
+    font-family: "Lucida Console", monospace;
+    }
+
+#mainbg2{
+    
+    display: inline-block;
+    width: 680px;
+    /*height: 655px;*/
+    background-color: #F8E59C;
+    vertical-align: top;
+    }
+
+.subcontents1{
+    display: inline-block;
+    height: 160px;
+    width: 160px;
+    background-color: #213F43;
+    padding: 10px;
+    vertical-align: top;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    margin-right: 10px;
+    }
+
+.subcontents2{
+    display: inline-block;
+    height: 140px;
+    width: 255px;
+    background-color: #213F43;
+    padding: 10px;
+    margin-left: 30px;
+    margin-right: 33px;
+    margin-bottom: 50px;
+    }
+
+.subcontents3{
+    display: inline-block;
+    height: 140px;
+    width: 600px;
+    background-color: #213F43;
+    padding: 10px;
+    margin-left: 30px;
+    margin-right: 18px;
+
+    }
+
+#footer{
+    height: 25px;
+    padding: 40px;
+    background-color: #5DAEAC;
+    text-align: center;
+
+    
+    }
